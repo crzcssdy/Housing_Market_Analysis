@@ -1,6 +1,4 @@
-# Housing_Market_Analysis
-Project Title
-Housing Market in the U.S.
+# **U.S. Housing Market Analysis (2012 - 2024)**
 
 Team Members:
 Jasmine Cofield
@@ -8,52 +6,70 @@ Cassidy Cruz
 Daniel Pineda
 Edward Tabijie
 Widchy Joachim
+---
 
-Project Description
-An analysis of the United States Housing market aimed at identifying national trends and unique marketplace behaviors
+## **Project Overview**
+This project aims to analyze the U.S. housing market from January 2012 to June 2024 to identify national trends, regional differences, and unique marketplace behaviors. The analysis focuses on various aspects such as median sale prices, sales volume, days on market, inventory levels, and the impact of significant events like the COVID-19 pandemic on housing prices.
 
-Research Questions to Ask (TENTATIVE)
-What are the topline national summary stats for the housing market?
-Sales price
-House size
-Units sold
-New listings
-Housing starts
+## **Datasets Used**
+- **Source**: Redfin Housing Market Data (https://www.redfin.com/news/data-center/)
+- **File**: `data.csv`
 
-What are the fastest growing metro areas in terms of:
-Sales volume
-Sales prices
+## **Research Questions**
+1. **Topline National Summary Stats**
+   - What are the trends in median sale prices, homes sold, new listings, and days on market across the U.S.?
 
-What markets have the most motivation to sell (Indication of migration)?
-Days on the market
-Number of listings
+2. **Fastest Growing Metro Areas**
+   - Which metro areas are experiencing the fastest growth in sales volume and prices?
 
-How did housing prices fluctuate or growth trends change during and following COVID-19?
-Isolate the time frame 2019 - 2024
+3. **Markets with the Most Motivation to Sell**
+   - Which regions show the highest motivation to sell based on days on market and new listings?
 
-Is there any correlation between housing price and…
-Sq footage
-Number of listings
-Price cuts?
+4. **Impact of COVID-19 on Housing Prices**
+   - How did housing prices fluctuate during and after the COVID-19 pandemic (2019 - 2024)?
 
-ADDITIONAL QUESTIONS TO LOOK INTO:
-Any potential patterns at the metro level
-Looking at any insights regarding migrations from metro cities to suburban/rural areas
-Potential drivers may include state moving stipends, lower cost of living, differences in state laws/restrictions, quality of life, etc.
-How do large major metro areas (i.e, NYC, LA) behave/differ versus other areas?
-Maybe group metro areas into different bins based on size to see if any patterns or trends arise?
+5. **Correlation Between Median Sale Price and Homes Sold**
+   - Is there a correlation between median sale prices and the number of homes sold?
+
+6. **Highest and lowest YoY growth in median sale prices**
+   - What regions are experiencing the highest and lowest YoY growth in median sale prices?
+
+## **Methodology**
+1. **Data Preparation**
+   - The data was cleaned by handling missing values and converting date formats.
+   - The dataset was transformed to focus on quarterly data for trend analysis.
+
+2. **Analysis**
+   - **Statistical Analysis**: Used descriptive statistics to summarize trends.
+   - **Correlation Analysis**: Examined the relationship between median sale prices and homes sold.
+   - **Trend Analysis**: Analyzed trends in new listings and sales volume over time.
+
+3. **Visualization**
+   - Data was visualized using `matplotlib` and `scipy.stats` to create line plots, scatter plots, and other charts that represent the findings.
+
+## **Findings**
+- **Consistent Growth**: Median sale prices have consistently increased since 2012, driven by demand, supply constraints, and favorable economic conditions.
+- **Metro Area Growth**: Certain metro areas have seen rapid growth in sales volume and prices, influenced by population growth and economic development.
+- **Market Motivation**: Regions with high days on market and new listings suggest outmigration, possibly due to economic decline or other factors.
+- **COVID-19 Impact**: Housing prices surged during and after the COVID-19 pandemic due to low interest rates and changing housing preferences.
+- **High and low YoY Growth**: A clear visualization of the Top 10 and Bottom 10 Regions by YoY Growth in Median Sale Prices (2024) and explanation based on researches.
+- **Correlation**: A weak correlation between median sale prices and homes sold indicates that higher prices do not necessarily result in more sales.
 
 
-Datasets to be Used
-Zillow Housing Market Data
-https://www.zillow.com/research/data/
-Redfin - https://www.redfin.com/news/data-center/
 
+## **Code Usage**
+1. **Imported Libraries**
+   - The required Python libraries are : (`pandas`, `matplotlib`, `scipy`).
+   
+2. **Running the Analysis**
+   - The code is organized into cells for each research question. Execute the cells in sequence to reproduce the analysis.
 
+3. **Visualization**
+   - The code includes various plotting functions to visualize trends and correlations.
 
-Rough Breakdown of Tasks
-Continue to review the datasets and consider what questions could be asked
-Think about what data visualizations would be best for showing the answer to the question
+## **Conclusion**
+This analysis provides a detailed understanding of the U.S. housing market's evolution over the past decade. The findings can inform stakeholders, including policymakers, real estate professionals, and investors, about the market's current state and future trends.
+
 
 
 Play around with the datasets via Jupyter Notebooks and ‘test out’ answering the questions

@@ -38,7 +38,9 @@ This project aims to analyze the U.S. housing market from January 2012 to June 2
 - **COVID-19 Impact**: Housing prices surged during and after the COVID-19 pandemic due to low interest rates and changing housing preferences.
 - **High and low YoY Growth**: A clear visualization of the Top 10 and Bottom 10 Regions by YoY Growth in Median Sale Prices (2024) and explanation based on researches.
 - **Correlation**: A weak correlation between median sale prices and homes sold indicates that higher prices do not necessarily result in more sales.
-- **% Changes in Home Sales**: in Home Sales volume continue to be dominated by larger counties but % change/growth provides a different perspective. Unsurprisingly, the counties with the largest change in home sales occurs in smaller non-urban counties
+- **% Changes in Home Sales**: Home Sales volume continue to be dominated by larger counties but % change/growth provides a different perspective. Unsurprisingly, the counties with the largest change in home sales occurs in smaller non-urban counties.
+- **Fastest Selling Markets**: The days on market provides another possible perspective as a measure of motivation. Prior to COVID19, the fastest selling homes were found in more urban counties, indicating a clear shift occurred towards non-urban areas in the post-COVID 19 era.
+
 
 
 ## **Code Usage**

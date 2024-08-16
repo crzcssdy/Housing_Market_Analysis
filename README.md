@@ -12,23 +12,11 @@ This project aims to analyze the U.S. housing market from January 2012 to June 2
 - **File**: `data.csv`
 
 ## **Research Questions**
-1. **Topline National Summary Stats**
-   - What are the trends in median sale prices, homes sold, new listings, and days on market across the U.S.?
+1.How have housing prices on the national and state level (before, during, and after the COVID-19 pandemic (2019 - 2024))?
+2. Which areas experienced the largest change in sales price and which experienced a decline?
+3. Which markets could be ‘affordable’ and which are increasingly out of reach?
+4. Which areas could be considered real estate ‘hotspots’ that people are looking to call home?
 
-2. **Fastest Growing Metro Areas**
-   - Which metro areas are experiencing the fastest growth in sales volume and prices?
-
-3. **Markets with the Most Motivation to Sell**
-   - Which regions show the highest motivation to sell based on days on market and new listings?
-
-4. **Impact of COVID-19 on Housing Prices**
-   - How did housing prices fluctuate during and after the COVID-19 pandemic (2019 - 2024)?
-
-5. **Correlation Between Median Sale Price and Homes Sold**
-   - Is there a correlation between median sale prices and the number of homes sold?
-
-6. **Highest and lowest YoY growth in median sale prices**
-   - What regions are experiencing the highest and lowest YoY growth in median sale prices?
 
 ## **Methodology**
 1. **Data Preparation**

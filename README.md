@@ -1,7 +1,7 @@
 # **U.S. Housing Market Analysis**
 
 Team Members:
-Jasmine Cofield, Cassidy Cruz, Daniel Pineda, Edward Tabijie, and Widchy Joachim
+Jasmine Cofield, Cassidy Cruz, Daniel Pineda, Edward Tabije, and Widchy Joachim
 ---
 
 ## **Project Overview**

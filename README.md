@@ -9,10 +9,10 @@ This project aims to analyze the U.S. housing market from January 2012 to June 2
 
 ## **Datasets Used**
 - **Source**: Redfin Housing Market Data (https://www.redfin.com/news/data-center/)
-- **File**: `data.csv`
+- **Main Files**: `data.csv`, 'data_national.csv', 'state_by_state_data_RAW.csv'
 
 ## **Research Questions**
-1. How have housing prices on the national and state level (before, during, and after the COVID-19 pandemic (2019 - 2024))?
+1. How have housing prices on the national level looked before, during, and after the COVID-19 pandemic (2019 - 2024))?
 2. Which areas experienced the largest change in sales price and which experienced a decline?
 3. Which markets could be ‘affordable’ and which are increasingly out of reach?
 4. Which areas could be considered real estate ‘hotspots’ that people are looking to call home?
@@ -25,11 +25,10 @@ This project aims to analyze the U.S. housing market from January 2012 to June 2
 
 2. **Analysis**
    - **Statistical Analysis**: Used descriptive statistics to summarize trends.
-   - **Correlation Analysis**: Examined the relationship between median sale prices and homes sold.
    - **Trend Analysis**: Analyzed trends in new listings and sales volume over time.
 
 3. **Visualization**
-   - Data was visualized using `matplotlib` and `scipy.stats` to create line plots, scatter plots, and other charts that represent the findings.
+   - Data was visualized using `matplotlib` and `scipy.stats` to create line plots, bar charts, and other charts that represent the findings.
 
 ## **Findings**
 - **Consistent Growth**: Median sale prices have consistently increased since 2012, driven by demand, supply constraints, and favorable economic conditions.
@@ -39,9 +38,7 @@ This project aims to analyze the U.S. housing market from January 2012 to June 2
      1.) Remote Work and Housing Preferences: The pandemic accelerated trends like remote work, leading many people to seek larger homes or move to less densely populated areas driving up prices in rural areas.
      2.) Supply Chain Disruptions: The pandemic caused disruptions in global supply chains, leading to shortages in construction materials and delays in building new homes. This exacerbated the existing supply constraints, further driving up prices.
      3.) Government Stimulus and Economic Relief: Government stimulus programs and economic relief efforts during the pandemic helped maintain consumer spending power, including the ability to purchase homes. This, coupled with low interest rates, supported continued growth in home prices up until the Fed changed course in an attempt to curb inflation.
-
 - **High and low YoY Growth**: A clear visualization of the Top 10 and Bottom 10 Regions by YoY Growth in Median Sale Prices (2024) and explanation based on researches.
-- **Correlation**: A weak correlation between median sale prices and homes sold indicates that higher prices do not necessarily result in more sales.
 - **Changes in Affordability**: While major metropolitan counties remain within the same range of median home prices compared to pre-pandemic values, we see that non-major counties had a significant change. The least expensive counties, such as Harper County, KS and Mason County, IL, are primarily those that are more rural, less job opportunities, may be perceived as "less desirable" based on pre-covid trends, but post-covid numbers seem to dictate that they are experiencing a major rise in median sales price and can be indicative of a perceptive change in their appeal to buyers as populations are shifting from metro to rural localities.
 - **% Changes in Home Sales**: Home Sales volume continue to be dominated by larger counties but % change/growth provides a different perspective. Unsurprisingly, the counties with the largest change in home sales occurs in smaller non-urban counties.
 - **Fastest Selling Markets**: The days on market provides another possible perspective as a measure of motivation. Prior to COVID19, the fastest selling homes were found in more urban counties, indicating a clear shift occurred towards non-urban areas in the post-COVID 19 era.

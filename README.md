@@ -12,10 +12,10 @@ This project aims to analyze the U.S. housing market from January 2012 to June 2
 - **File**: `data.csv`
 
 ## **Research Questions**
-1.How have housing prices on the national and state level (before, during, and after the COVID-19 pandemic (2019 - 2024))?
-2. Which areas experienced the largest change in sales price and which experienced a decline?
-3. Which markets could be ‘affordable’ and which are increasingly out of reach?
-4. Which areas could be considered real estate ‘hotspots’ that people are looking to call home?
+**1.** How have housing prices on the national and state level (before, during, and after the COVID-19 pandemic (2019 - 2024))?
+**2.** Which areas experienced the largest change in sales price and which experienced a decline?
+**3.** Which markets could be ‘affordable’ and which are increasingly out of reach?
+**4.** Which areas could be considered real estate ‘hotspots’ that people are looking to call home?
 
 
 ## **Methodology**

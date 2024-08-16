@@ -73,8 +73,3 @@ This analysis provides a detailed understanding of the U.S. housing market's evo
 
 
 Play around with the datasets via Jupyter Notebooks and ‘test out’ answering the questions
-
-
-
-Executive Summary
-

@@ -1,11 +1,7 @@
 # **U.S. Housing Market Analysis (2012 - 2024)**
 
 Team Members:
-Jasmine Cofield
-Cassidy Cruz
-Daniel Pineda
-Edward Tabijie
-Widchy Joachim
+Jasmine Cofield, Cassidy Cruz, Daniel Pineda, Edward Tabijie, and Widchy Joachim
 ---
 
 ## **Project Overview**

@@ -2,7 +2,7 @@
 Project Title
 Housing Market in the U.S.
 
-Team Members
+Team Members:
 Jasmine Cofield
 Cassidy Cruz
 Daniel Pineda
